@@ -1,0 +1,14 @@
+link:https://www.youtube.com/watch?v=uBcpWOQqbAQ
+1.npm install @react-navigation/native
+2.npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view @react-navigation/stack
+3.react-native link
+4.cd ios
+5.pod install
+#出现问题：[!] `React` requires CocoaPods version `>= 1.10.1`, which is not satisfied by your current version, `1.10.0.beta.2`.
+解决方法：sudo gem install cocoapods
+6.cd ../
+7.react-native run-ios
+8.npm install victory-native --save
+9.npm install react-native-svg --save
+10.react-native link
+...
